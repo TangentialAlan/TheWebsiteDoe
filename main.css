@@ -1,0 +1,12 @@
+primary {
+	color: red;
+	font-size: 400%;
+}
+
+p.primary {
+	color: green;
+	font-size: 400%;
+}
+p {
+	color: blue;
+}

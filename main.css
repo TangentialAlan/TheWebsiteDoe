@@ -1,22 +1,55 @@
-primary {
-	color: red;
-	font-size: 400%;
+body {
+	margin: 0;
+	text-align: center;
 }
 
-p.primary {
-	color: green;
-	font-size: 400%;
+#container h1 {
+	margin: 0;
 }
-p {
-	color: blue;
+header {
+	margin: 0;
+	background:#999;
+	height: 100px;
+	background: #dbdbdb;
+	width: 100%;
+	z-index: 100; 
+	position: fixed;
+
 }
 
-li.done {
-	color: green;
-	font-family: cursive;
-	font-size: 20px;
+header h1 {
+	margin: 0;
 }
 
-.hide {
-	display: none;
-} 
+nav ul {
+	margin: 0;
+}
+
+nav ul li {
+	background: black;
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+
+}
+
+nav ul li a {
+	color: white;
+}
+
+#banner {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background: #707070;
+}
+
+#content {
+	width: 100%;
+	position: relative;
+	top: 400px;
+	background: #ebebeb;
+	height: 1500px;
+}
